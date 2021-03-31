@@ -1,34 +1,14 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
-
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+# Keywords lib
 
 ## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
-
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
 
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-hello-world-starter/
+    cd keywords-lib/
+    npm install
     gatsby develop
     ```
 
@@ -38,7 +18,44 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `keyword-lib` directory in your code editor of choice. Save your changes and the browser will update in real time!
+
+1. **Add new keywords with associated docs**
+
+    To create new keywords, create a new markdown file in `src/keywords-docs`.
+
+    The markdown you will write here will be the content of the corresponding post.
+    Each content file has a _frontmatter_ in `yaml` syntax.
+
+    A keyword post can have the following front matter fields :
+    ```yaml
+    title: Title # The title of your post (REQUIRED)
+    tags: # List of tags (free from any restrictions, it's only words)
+      - Tag1 # Tags names
+      - Tag2
+    sources:  # List of sources used for this keyword definition
+      - http://wikipedia.org # urls directly
+    related:  # List of related posts
+      - Post1 # Posts titles (the `title` key in the related post's frontmatter)
+      - Post2
+    authors:  # List of authors for this post (even if only one author)
+      - Author1 # Author username (the `username` key in the author's frontmatter)
+    ```
+
+1. **Add your author's info**
+
+    To create new authors, create a new markdown file in `src/authors`
+
+    The markdown you will write here will be the description used for your author's page.
+    Each author file has a _frontmatter_ in `yaml` syntax.
+
+    An author post can have the following front matter fields :
+    ```yaml
+    username: My Username # Your username, currently also used as your display name (REQUIRED)
+    avatar: http://url.to/avatar # Url to the avatar you want to use. If omitted, a random one will be generated each time (OPTIONAL)
+    ```
+
+# Gatsby's README
 
 ## 🧐 What's inside?
 
