@@ -41,7 +41,7 @@ export default function Layout({ children }) {
           float: right;
         `}
       >
-        About
+        À propos
       </Link>
       {children}
     </div>

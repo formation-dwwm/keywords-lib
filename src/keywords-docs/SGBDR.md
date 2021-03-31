@@ -8,6 +8,8 @@ related:
     - Base de données
 authors:
     - Matthias Gaudin
+sources:
+    - http://www.cupcakeipsum.com/
 ---
 
 **S**ystème de **G**estion de **B**ase de **D**onnées **R**elationnel
