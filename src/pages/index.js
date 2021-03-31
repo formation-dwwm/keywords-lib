@@ -20,6 +20,7 @@ export default function Home({ data }) {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <PostCard 
+            key={node.id}
             id={node.id} 
             slug={node.fields.slug} 
             title={node.frontmatter.title} 

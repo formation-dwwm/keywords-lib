@@ -15,6 +15,7 @@ import { User } from "../components/user"
             </p>
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <User 
+                key={node.id}
                 username={node.frontmatter.username}
                 avatar={node.frontmatter.avatar}
                 excerpt={node.excerpt} />

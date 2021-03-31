@@ -6,6 +6,7 @@
 
  module.exports = {
   /* Your site config here */
+  pathPrefix: "/keywords-lib",
   siteMetadata: {
     title: `DWWM Keywords`,
   },
