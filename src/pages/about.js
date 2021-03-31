@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { User } from "../components/user"
 import * as styles from './about.module.css'
 
@@ -13,12 +13,14 @@ import * as styles from './about.module.css'
           <p>
               Dictionnaire interne des termes clefs du Développement Web et Web Mobile.
           </p>
-          {data.allMarkdownRemark.edges.map(({ node }) => (
+          {data.allMarkdownRemark.edges.map(({ node }) => node &&(
+            <Link to={node.fields.slug}
+              key={node.id}>
             <User 
-              key={node.id}
               username={node.frontmatter.username}
               avatar={node.frontmatter.avatar}
               excerpt={node.excerpt} />
+            </Link>
           ))}
         </div>
       </Layout>

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import { User } from "../components/user";
 import { PostCard } from "../components/postCard";
@@ -45,12 +45,14 @@ export default function KeywordPost({ data }) {
                 <>
                 <h3>Auteurs</h3>
                 <div className="authors">
-                    {authors.map(author => (
-                        <User 
-                        key={author.id}
-                        username={author.frontmatter.username}
-                        avatar={author.frontmatter.avatar}
-                        excerpt={author.excerpt} />
+                    {authors.map(author => author && (
+                        <Link to={author.fields.slug}
+                              key={author.id}>
+                            <User 
+                                username={author.frontmatter.username}
+                                avatar={author.frontmatter.avatar}
+                                excerpt={author.excerpt} />
+                        </Link>
                     ))}
                 </div>
                 </>

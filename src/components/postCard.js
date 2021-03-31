@@ -24,7 +24,7 @@ export const PostCard = ({ id, slug, title = "No title", excerpt = "", authors =
               color: #555;
             `}
           >
-            — {authors.map(user => <span>{user.frontmatter.username}</span>)}
+            — {(authors || []).map(user => user && <span>{user.frontmatter.username}</span>)}
           </span>
         </h3>
         <p>{excerpt}</p>

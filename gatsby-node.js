@@ -28,7 +28,9 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(
+        filter: {fileAbsolutePath: {regex: "/src\\/keywords-docs/"}} 
+      ) {
         edges {
           node {
             fields {
@@ -48,6 +50,38 @@ exports.createPages = async ({ graphql, actions }) => {
         // Data passed to context is available
         // in page queries as GraphQL variables.
         slug: node.fields.slug,
+      },
+    })
+  })
+
+  const authorsResults = await graphql(`
+    query {
+        allMarkdownRemark(
+            filter: {fileAbsolutePath: {regex: "/src\\/authors/"}} 
+        ) {
+        edges {
+            node {
+            fields {
+                slug
+            }
+            frontmatter {
+                username
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  authorsResults.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: path.resolve(`./src/templates/author-page.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.fields.slug,
+        username: node.frontmatter.username
       },
     })
   })
