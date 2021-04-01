@@ -2,6 +2,14 @@
 
 ## 🚀 Quick start
 
+1.  **Install Gatsby CLI**
+
+    In a shell, run the following command:
+
+    ```shell
+    npm install -g gatsby-cli
+    ```
+
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
