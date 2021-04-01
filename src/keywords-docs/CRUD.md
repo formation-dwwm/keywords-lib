@@ -14,7 +14,7 @@ sources:
 
 **C**reate(Créer) **R**ead(lire) **U**pdate(Mettre à jour) **D**elete(Supprimer)
 
-CRUD est un acronyme pour les façon dont on peut fonctionner sur des données stockés. 
+<br/>CRUD est un acronyme pour les façon dont on peut fonctionner sur des données stockés. 
 Il s'applique sur les BDD mais peut aussi s'appliquer sur des interfaces logicielles
 Dans le cadre des BDD, chaque terme correspond à un type de requête SQL :
 <ul>

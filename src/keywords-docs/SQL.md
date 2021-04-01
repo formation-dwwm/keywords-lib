@@ -14,4 +14,4 @@ sources:
 
 **S**tructured **Q**uery **L**anguage (langage de requête structurée)
 
-C'est un langage informatique normalisé de type déclaratif servant à exploiter des bases de données relationnelles. 
+<br/>C'est un langage informatique normalisé de type déclaratif servant à exploiter des bases de données relationnelles. 
