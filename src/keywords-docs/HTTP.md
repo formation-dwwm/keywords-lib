@@ -4,11 +4,12 @@ tags:
     - HTTP
 related:
     - HTTP
+    - HTTPS
     - Hypertext Transfer Protocol
 authors:
     - Filipe Dos Santos
 sources:
-    - https://fr.wikipedia.org/wiki/HyperText_Transfer_Protocol_Secure
+    - https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 ---
 
 **H**yper **T**ext **T**ransfer **P**rotocol
