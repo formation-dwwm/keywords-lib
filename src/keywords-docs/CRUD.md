@@ -15,7 +15,7 @@ sources:
     - https://developer.mozilla.org/fr/docs/Glossary/CRUD
 ---
 
-**C**reate(Créer) **R**ead(lire) **U**pdate **D**elete
+**C**reate(Créer) **R**ead(lire) **U**pdate(Mettre à jour) **D**elete(Supprimer)
 
 CRUD est un acronyme pour les façon dont on peut fonctionner sur des données stockés. 
 Il s'applique sur les BDD mais peut aussi s'appliquer sur des interfaces logicielles
