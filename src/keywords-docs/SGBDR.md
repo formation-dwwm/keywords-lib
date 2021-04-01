@@ -7,9 +7,9 @@ related:
     - SGBD
     - Base de données
 authors:
-    - Matthias Gaudin
+    - Loic Sorres
 sources:
-    - http://www.cupcakeipsum.com/
+    - https://www.techniques-ingenieur.fr/base-documentaire/archives-th12/archives-technologies-logicielles-et-architecture-des-systemes-tiahb/archive-1/bases-de-donnees-relationnelles-h2038/qu-appelle-t-on-sgbdr-h2038niv10007.html
 ---
 
 **S**ystème de **G**estion de **B**ase de **D**onnées **R**elationnel
