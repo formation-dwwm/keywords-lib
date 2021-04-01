@@ -17,6 +17,6 @@ sources:
 Logiciel standard qui repose sur les principes du modèle relationnel. 
 Un SGBDR propose les trois principales fonctions suivantes :
 
--la définition des données sous forme de relations.
--la manipulation des données par un langage déclaratif.
+-la définition des données sous forme de relations.<br>
+-la manipulation des données par un langage déclaratif.<br>
 -l’administration des données.
