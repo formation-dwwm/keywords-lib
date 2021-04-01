@@ -6,6 +6,9 @@ authors:
   - Fabien Brun
 related:
   - JS
+  - TS
+  - Javascript
+  - Typescript
 sources:
   - https://fr.wikipedia.org/wiki/JavaScript
   - http://glossaire.infowebmaster.fr/javascript/

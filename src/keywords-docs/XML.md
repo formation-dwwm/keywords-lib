@@ -6,6 +6,7 @@ authors:
   - Fabien Brun
 related:
   - XML
+  - HTML
 sources:
   - https://en.wikipedia.org/wiki/XML - http://glossaire.infowebmaster.fr/xml/
 ---
