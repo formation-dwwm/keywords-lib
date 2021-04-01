@@ -13,4 +13,4 @@ sources:
 
 **E**xtensible **M**arkup **L**anguage
 
-Le XML, acronyme de eXtensible Markup Language (qui signifie: langage de balisage extensible), est un langage informatique qui sert à enregistrer des données textuelles.
+</br>Le XML, acronyme de eXtensible Markup Language (qui signifie: langage de balisage extensible), est un langage informatique qui sert à enregistrer des données textuelles.
