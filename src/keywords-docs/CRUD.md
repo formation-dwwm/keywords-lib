@@ -5,10 +5,7 @@ tags:
 authors:
     - Laurence Turcotti
 related:
-    - CRUD
     - Base de données
-    - SGBD
-    - SGBDR
     - SQL
 sources:
     - https://fr.wikipedia.org/wiki/CRUD
@@ -20,7 +17,8 @@ sources:
 CRUD est un acronyme pour les façon dont on peut fonctionner sur des données stockés. 
 Il s'applique sur les BDD mais peut aussi s'appliquer sur des interfaces logicielles
 Dans le cadre des BDD, chaque terme correspond à un type de requête SQL :
- Create : INSERT
- Read : SELECT
- Update : UPDATE
- Delete : DELETE
+<ul>
+    <li>Create : INSERT</li>
+    <li>Read : SELECT</li>
+    <li>Update : UPDATE</li>
+    <li>Delete : DELETE</li>
