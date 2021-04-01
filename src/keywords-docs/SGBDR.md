@@ -7,11 +7,16 @@ related:
     - SGBD
     - Base de données
 authors:
-    - Matthias Gaudin
+    - Loic Sorres
 sources:
-    - http://www.cupcakeipsum.com/
+    - https://www.techniques-ingenieur.fr/base-documentaire/archives-th12/archives-technologies-logicielles-et-architecture-des-systemes-tiahb/archive-1/bases-de-donnees-relationnelles-h2038/qu-appelle-t-on-sgbdr-h2038niv10007.html
 ---
 
 **S**ystème de **G**estion de **B**ase de **D**onnées **R**elationnel
 
-Gingerbread jelly fruitcake gummies. Toffee gummi bears jelly brownie jujubes sweet lemon drops bonbon chocolate. Dragée gummies biscuit donut gingerbread cookie dragée caramels. Jelly beans toffee toffee. Tart bear claw cookie marzipan tart. Cake cookie tootsie roll cookie cupcake jelly-o biscuit fruitcake. Cheesecake lemon drops brownie gingerbread brownie marzipan. Oat cake cake halvah cupcake tiramisu. Macaroon gummi bears ice cream pastry caramels bear claw jujubes icing. Sweet jelly chupa chups chocolate cake sugar plum chocolate cake apple pie ice cream. Ice cream topping croissant jelly jujubes cotton candy bonbon. Fruitcake cupcake liquorice. Cookie sugar plum cookie cake pastry marzipan bonbon chocolate bar.
+Logiciel standard qui repose sur les principes du modèle relationnel. 
+Un SGBDR propose les trois principales fonctions suivantes :
+
+-la définition des données sous forme de relations.
+-la manipulation des données par un langage déclaratif.
+-l’administration des données.
