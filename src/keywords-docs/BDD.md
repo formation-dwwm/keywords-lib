@@ -1,5 +1,5 @@
 ---
-title: "SQL"
+title: "BDD"
 tags:
     - BDD
 authors:
