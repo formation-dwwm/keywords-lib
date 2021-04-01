@@ -14,5 +14,5 @@ sources:
 ---
 
 **B**ase **D**e **D**onnées
-Une base de données est un « conteneur » stockant des données telles que des chiffres, des dates ou des mots, pouvant être retraités par des moyens informatiques pour produire une information. 
-<br/> les données sont stockées dans des tables souvent reliées entre elle
+<br/>Une base de données est un « conteneur » stockant des données telles que des chiffres, des dates ou des mots, pouvant être retraités par des moyens informatiques pour produire une information. 
+<br/> les données sont stockées dans des tables souvent reliées entre elle.
