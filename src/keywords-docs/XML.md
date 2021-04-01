@@ -1,11 +1,13 @@
 ---
-
 title: "XML"
-tags: - XML
-authors: - Fabien Brun
-related: - XML
-sources: - https://en.wikipedia.org/wiki/XML - http://glossaire.infowebmaster.fr/xml/
-
+tags:
+  - XML
+authors:
+  - Fabien Brun
+related:
+  - XML
+sources:
+  - https://en.wikipedia.org/wiki/XML - http://glossaire.infowebmaster.fr/xml/
 ---
 
 **E**xtensible **M**Markup **L**anguage
