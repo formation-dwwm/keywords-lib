@@ -14,4 +14,9 @@ sources:
 
 **S**ystème de **G**estion de **B**ase de **D**onnées **R**elationnel
 
-Gingerbread jelly fruitcake gummies. Toffee gummi bears jelly brownie jujubes sweet lemon drops bonbon chocolate. Dragée gummies biscuit donut gingerbread cookie dragée caramels. Jelly beans toffee toffee. Tart bear claw cookie marzipan tart. Cake cookie tootsie roll cookie cupcake jelly-o biscuit fruitcake. Cheesecake lemon drops brownie gingerbread brownie marzipan. Oat cake cake halvah cupcake tiramisu. Macaroon gummi bears ice cream pastry caramels bear claw jujubes icing. Sweet jelly chupa chups chocolate cake sugar plum chocolate cake apple pie ice cream. Ice cream topping croissant jelly jujubes cotton candy bonbon. Fruitcake cupcake liquorice. Cookie sugar plum cookie cake pastry marzipan bonbon chocolate bar.
+Logiciel standard qui repose sur les principes du modèle relationnel. 
+Un SGBDR propose les trois principales fonctions suivantes :
+
+-la définition des données sous forme de relations.
+-la manipulation des données par un langage déclaratif.
+-l’administration des données.
