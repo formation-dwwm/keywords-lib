@@ -85,4 +85,49 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  const tagsResults = await graphql(`
+    query {
+        allMarkdownRemark(
+            filter: {fileAbsolutePath: {regex: "/src\\/keywords-docs/"}} 
+        ) {
+        edges {
+            node {
+            fields {
+                slug
+            }
+            frontmatter {
+                tags
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const tagsMap = new Map();
+
+  tagsResults.data.allMarkdownRemark.edges.forEach(({node}) => {
+      if(node && node.frontmatter && node.frontmatter.tags && node.frontmatter.tags.length > 0){
+          node.frontmatter.tags.forEach(tagName => {
+            if(!tagsMap.has(tagName)){
+                tagsMap.set(tagName, []);
+            }
+            const tagPosts = tagsMap.get(tagName);
+            tagPosts.push(node.fields.slug);
+          })
+      }
+  })
+  
+  tagsMap.forEach((postSlugs, tagName) => {
+    createPage({
+      path: `tag/${tagName}`,
+      component: path.resolve(`./src/templates/tag-page.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        tagName: tagName,
+      },
+    })
+  })
 }
