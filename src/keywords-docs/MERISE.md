@@ -6,6 +6,7 @@ authors:
   - Fabien Brun
 related:
   - Merise
+  - MPD
 sources:
   - https://fr.wikipedia.org/wiki/Merise_(informatique)
   - https://fr.wikipedia.org/wiki/Merise
